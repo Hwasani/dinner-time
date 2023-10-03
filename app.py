@@ -13,7 +13,7 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle('Dinner Time by Slim Jesus')
         self.setFixedSize(450,300)
-        self.img = QPixmap('meal_decider/images/slim.jpg')
+        self.img = QPixmap('dinner-time/images/slim.jpg')
         self.main = QLabel(self, text="what's for dinner?")
         self.fetch_api
         self.button = QPushButton(text="Maybe...?")
